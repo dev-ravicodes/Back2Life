@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DuB-uw-9ZL">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="nca-z0-cpg">
+            <objects>
+                <viewController id="DuB-uw-9ZL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eM0-Lf-eCv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="VTg-TN-3wj">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jov-CF-lT0">
+                                <rect key="frame" x="0.0" y="733" width="414" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a91-63-8iN">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="21"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PoCTest" translatesAutoresizingMaskIntoConstraints="NO" id="c70-Wv-nbR">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                        <color key="backgroundColor" name="AppPrimaryThemeColor"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="9z1-c8-Afx"/>
+                                    <constraint firstItem="a91-63-8iN" firstAttribute="top" secondItem="jov-CF-lT0" secondAttribute="top" id="LOM-ct-ufJ"/>
+                                    <constraint firstItem="a91-63-8iN" firstAttribute="leading" secondItem="jov-CF-lT0" secondAttribute="leading" id="Nwg-Tf-Usn"/>
+                                    <constraint firstAttribute="bottom" secondItem="a91-63-8iN" secondAttribute="bottom" id="T7o-QU-kz4"/>
+                                    <constraint firstAttribute="trailing" secondItem="a91-63-8iN" secondAttribute="trailing" id="TLE-qL-C4m"/>
+                                    <constraint firstItem="c70-Wv-nbR" firstAttribute="top" secondItem="jov-CF-lT0" secondAttribute="top" id="bjy-Rv-2CV"/>
+                                    <constraint firstItem="c70-Wv-nbR" firstAttribute="leading" secondItem="jov-CF-lT0" secondAttribute="leading" id="kFn-O4-jaW"/>
+                                    <constraint firstAttribute="trailing" secondItem="c70-Wv-nbR" secondAttribute="trailing" id="mLK-wo-cjV"/>
+                                    <constraint firstAttribute="bottom" secondItem="c70-Wv-nbR" secondAttribute="bottom" id="pn9-Ld-uXT"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back2" translatesAutoresizingMaskIntoConstraints="NO" id="7uJ-bz-T3a">
+                                <rect key="frame" x="132" y="44" width="150" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="IL6-ia-oeJ"/>
+                                    <constraint firstAttribute="width" constant="150" id="QtL-ZY-Q10"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dwX-XL-j4D"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VTg-TN-3wj" firstAttribute="leading" secondItem="dwX-XL-j4D" secondAttribute="leading" id="0vU-mo-027"/>
+                            <constraint firstItem="7uJ-bz-T3a" firstAttribute="centerX" secondItem="eM0-Lf-eCv" secondAttribute="centerX" id="BlD-cJ-bEt"/>
+                            <constraint firstItem="7uJ-bz-T3a" firstAttribute="top" secondItem="dwX-XL-j4D" secondAttribute="top" id="PMT-QN-rZ4"/>
+                            <constraint firstItem="VTg-TN-3wj" firstAttribute="top" secondItem="eM0-Lf-eCv" secondAttribute="top" id="Wdt-5Q-FRn"/>
+                            <constraint firstItem="jov-CF-lT0" firstAttribute="trailing" secondItem="dwX-XL-j4D" secondAttribute="trailing" id="Yd4-b2-K6W"/>
+                            <constraint firstAttribute="bottom" secondItem="VTg-TN-3wj" secondAttribute="bottom" id="ZJX-Rk-IJN"/>
+                            <constraint firstItem="dwX-XL-j4D" firstAttribute="trailing" secondItem="VTg-TN-3wj" secondAttribute="trailing" id="iFP-Gb-rpZ"/>
+                            <constraint firstItem="jov-CF-lT0" firstAttribute="leading" secondItem="dwX-XL-j4D" secondAttribute="leading" id="xJZ-3d-gtT"/>
+                            <constraint firstItem="dwX-XL-j4D" firstAttribute="bottom" secondItem="jov-CF-lT0" secondAttribute="bottom" constant="79" id="yB8-aM-xrR"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yH7-Zv-8oZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="36.231884057971016" y="84.375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchScreen" width="496" height="1096"/>
+        <image name="PoCTest" width="577" height="82"/>
+        <image name="back2" width="100" height="33.5"/>
+        <namedColor name="AppPrimaryThemeColor">
+            <color red="0.99607843137254903" green="0.33333333333333331" blue="0.46274509803921571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

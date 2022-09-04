@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-current_location">
+      <rect width="100" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="current_location" data-name="current location" clip-path="url(#clip-current_location)">
+    <g id="Group_50" data-name="Group 50" transform="translate(-30 -30)">
+      <circle id="Ellipse_55" data-name="Ellipse 55" cx="50" cy="50" r="50" transform="translate(30 30)" fill="#fe5576"/>
+      <path id="Icon_material-my-location" data-name="Icon material-my-location" d="M30.25,19.8A10.455,10.455,0,1,0,40.7,30.25,10.452,10.452,0,0,0,30.25,19.8Zm23.366,7.841A23.508,23.508,0,0,0,32.864,6.884V1.5H27.636V6.884A23.508,23.508,0,0,0,6.884,27.636H1.5v5.227H6.884A23.508,23.508,0,0,0,27.636,53.616V59h5.227V53.616A23.508,23.508,0,0,0,53.616,32.864H59V27.636ZM30.25,48.545a18.3,18.3,0,1,1,18.3-18.3A18.282,18.282,0,0,1,30.25,48.545Z" transform="translate(50.751 49.75)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

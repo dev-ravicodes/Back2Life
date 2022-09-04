@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FranklinGothic-Light.ttf">
+            <string>FranklinGothic-Light</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Menu View Controller-->
+        <scene sceneID="xWU-YV-DlP">
+            <objects>
+                <viewController storyboardIdentifier="MenuViewController" id="f3o-uS-lgL" customClass="MenuViewController" customModule="Back2Life" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TAm-Ln-Uw8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_to_life_logo" translatesAutoresizingMaskIntoConstraints="NO" id="XxD-hb-O27">
+                                <rect key="frame" x="127" y="44" width="160" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="gtX-rv-6IS"/>
+                                    <constraint firstAttribute="height" constant="50" id="vxP-JJ-f3I"/>
+                                </constraints>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WLM-qr-IGW">
+                                <rect key="frame" x="0.0" y="129" width="414" height="733"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MenuCell" textLabel="uue-dG-b1j" imageView="29q-07-mq4" style="IBUITableViewCellStyleDefault" id="VUt-El-CH6">
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VUt-El-CH6" id="kuL-VM-bm2">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="TESTER KONTAKTIEREN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uue-dG-b1j">
+                                                    <rect key="frame" x="65" y="0.0" width="329" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="FranklinGothic-Light" family="FranklinGothic-Light" pointSize="18"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="heart" id="29q-07-mq4">
+                                                    <rect key="frame" x="20" y="6.5" width="30" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" name="AppPrimaryBackgroundColor"/>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Nwh-OU-cXI"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WLM-qr-IGW" firstAttribute="leading" secondItem="Nwh-OU-cXI" secondAttribute="leading" id="HZT-jo-aos"/>
+                            <constraint firstItem="Nwh-OU-cXI" firstAttribute="bottom" secondItem="WLM-qr-IGW" secondAttribute="bottom" id="Li8-HH-4g8"/>
+                            <constraint firstItem="Nwh-OU-cXI" firstAttribute="trailing" secondItem="WLM-qr-IGW" secondAttribute="trailing" id="kQY-dV-dnO"/>
+                            <constraint firstItem="XxD-hb-O27" firstAttribute="centerX" secondItem="TAm-Ln-Uw8" secondAttribute="centerX" id="rGr-um-qhp"/>
+                            <constraint firstItem="XxD-hb-O27" firstAttribute="top" secondItem="Nwh-OU-cXI" secondAttribute="top" id="wBU-gk-57e"/>
+                            <constraint firstItem="WLM-qr-IGW" firstAttribute="top" secondItem="XxD-hb-O27" secondAttribute="bottom" constant="35" id="xnA-fd-SPs"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="WLM-qr-IGW" id="w6D-IM-A0Y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WjV-nS-cDY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-155" y="26"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back_to_life_logo" width="100" height="33.5"/>
+        <image name="heart" width="30" height="30"/>
+        <namedColor name="AppPrimaryBackgroundColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

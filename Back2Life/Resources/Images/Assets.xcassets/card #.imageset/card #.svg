@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-card_">
+      <rect width="100" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="card_" data-name="card #" clip-path="url(#clip-card_)">
+    <g id="Group_46" data-name="Group 46" transform="translate(-285.098 -256)">
+      <circle id="Ellipse_59" data-name="Ellipse 59" cx="32" cy="32" r="32" transform="translate(285.098 273)" fill="#ee1313"/>
+      <circle id="Ellipse_60" data-name="Ellipse 60" cx="32" cy="32" r="32" transform="translate(321.098 273)" fill="#ec6e00" opacity="0.86"/>
+    </g>
+  </g>
+</svg>

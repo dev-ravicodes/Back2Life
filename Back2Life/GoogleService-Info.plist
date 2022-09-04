@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>937361161930-2csp7rkt2h0qtajki3ecmhddt8kohra4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.937361161930-2csp7rkt2h0qtajki3ecmhddt8kohra4</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>937361161930-2hgb0mkpaiobdrdpgleg2v013ucfftig.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBUFdnCr5A97AHoFGzfe_d0-Cke3WlmMzI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>937361161930</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Back2life.dev.Back2Life</string>
+	<key>PROJECT_ID</key>
+	<string>back2life-2429a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>back2life-2429a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:937361161930:ios:adaa6f56dc11307553be33</string>
+</dict>
+</plist>

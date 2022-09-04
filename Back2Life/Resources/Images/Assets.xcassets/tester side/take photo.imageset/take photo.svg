@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-take_photo">
+      <rect width="100" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="take_photo" data-name="take photo" clip-path="url(#clip-take_photo)">
+    <path id="Icon_awesome-camera" data-name="Icon awesome-camera" d="M100,24.125v56.25a9.377,9.377,0,0,1-9.375,9.375H9.375A9.377,9.377,0,0,1,0,80.375V24.125A9.377,9.377,0,0,1,9.375,14.75H26.562l2.4-6.426a9.362,9.362,0,0,1,8.77-6.074H62.246a9.362,9.362,0,0,1,8.77,6.074l2.422,6.426H90.625A9.377,9.377,0,0,1,100,24.125ZM73.438,52.25A23.438,23.438,0,1,0,50,75.688,23.456,23.456,0,0,0,73.438,52.25Zm-6.25,0A17.188,17.188,0,1,1,50,35.063,17.213,17.213,0,0,1,67.188,52.25Z" transform="translate(0 3.75)"/>
+  </g>
+</svg>

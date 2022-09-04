@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-notification">
+      <rect width="100" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="notification" clip-path="url(#clip-notification)">
+    <rect id="profile_img" data-name="profile img" width="100" height="100" rx="50" fill="#fe5576"/>
+    <g id="Iconly_Light_Notification" data-name="Iconly/Light/Notification" transform="translate(11 14)">
+      <g id="Notification-2" data-name="Notification" transform="translate(11.667 6.667)">
+        <path id="Path_425" d="M0,39.29v-.73A12,12,0,0,1,2.008,32.5a16.235,16.235,0,0,0,3.978-7.712c0-2.222,0-4.475.194-6.7C7.182,7.395,17.758,0,28.2,0h.259C38.908,0,49.483,7.395,50.518,18.09c.194,2.222,0,4.475.162,6.7a16.517,16.517,0,0,0,3.978,7.744,11.688,11.688,0,0,1,2.005,6.03v.7a11.888,11.888,0,0,1-2.814,7.966,15.018,15.018,0,0,1-9.508,4.57,150.26,150.26,0,0,1-32.049,0,15.181,15.181,0,0,1-9.508-4.57A12.012,12.012,0,0,1,0,39.29Z" transform="translate(0 0)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path id="Path_421" d="M0,0A10.2,10.2,0,0,0,6.791,3.756a10.293,10.293,0,0,0,7.5-2.074A9.619,9.619,0,0,0,16.041,0" transform="translate(20.183 62.839)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>
